@@ -134,7 +134,7 @@ public class ChangedTransfurVariants {
     public static final RegistryObject<TransfurVariant<LatexRedPanda>> LATEX_RED_PANDA = register("form_latex_red_panda",
             TransfurVariant.Builder.of(ChangedEntities.LATEX_RED_PANDA));
     public static final RegistryObject<TransfurVariant<LatexShark>> LATEX_SHARK = register("form_latex_shark",
-            TransfurVariant.Builder.of(ChangedEntities.LATEX_SHARK).sound(ChangedSounds.TRANSFUR_BY_NOT_LATEX.getId()));
+            TransfurVariant.Builder.of(ChangedEntities.LATEX_SHARK).gills().sound(ChangedSounds.TRANSFUR_BY_NOT_LATEX.getId()));
     public static final RegistryObject<TransfurVariant<LatexSnake>> LATEX_SNAKE = register("form_latex_snake",
             TransfurVariant.Builder.of(ChangedEntities.LATEX_SNAKE).absorbing().noLegs().addAbility(ChangedAbilities.SLITHER));
     public static final RegistryObject<TransfurVariant<SniperDog>> SNIPER_DOG = register("form_sniper_dog",
