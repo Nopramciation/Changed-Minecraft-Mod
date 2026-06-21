@@ -36,7 +36,7 @@ public abstract class AttributePresets {
 
     public static void sharkLike(AttributeMap map) {
         map.getInstance(Attributes.MOVEMENT_SPEED).setBaseValue(0.875);
-        map.getInstance(ForgeMod.SWIM_SPEED.get()).setBaseValue(1.48);
+        map.getInstance(ForgeMod.SWIM_SPEED.get()).setBaseValue(3.0);
         map.getInstance(Attributes.MAX_HEALTH).setBaseValue(24.0);
     }
 
