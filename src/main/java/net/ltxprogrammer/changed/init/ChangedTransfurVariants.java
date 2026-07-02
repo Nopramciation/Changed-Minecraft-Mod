@@ -130,7 +130,7 @@ public class ChangedTransfurVariants {
     public static final RegistryObject<TransfurVariant<LatexRaccoon>> LATEX_RACCOON = register("form_latex_raccoon",
             TransfurVariant.Builder.of(ChangedEntities.LATEX_RACCOON).visionType(VisionType.REDUCED));
     public static final RegistryObject<TransfurVariant<LatexRedDragon>> LATEX_RED_DRAGON = register("form_latex_red_dragon",
-            TransfurVariant.Builder.of(ChangedEntities.LATEX_RED_DRAGON).glide());
+            TransfurVariant.Builder.of(ChangedEntities.LATEX_RED_DRAGON).glide().nightVision().addAbility(ChangedAbilities.TOGGLE_NIGHT_VISION).sound(ChangedSounds.TRANSFUR_BY_NOT_LATEX.getId()));
     public static final RegistryObject<TransfurVariant<LatexRedPanda>> LATEX_RED_PANDA = register("form_latex_red_panda",
             TransfurVariant.Builder.of(ChangedEntities.LATEX_RED_PANDA));
     public static final RegistryObject<TransfurVariant<LatexShark>> LATEX_SHARK = register("form_latex_shark",
